@@ -1,4 +1,4 @@
-package pe.edu.cibertec.patitas_front_end_a.viewmodel;
+package pe.edu.cibertec.patitas_front_end_a.dto;
 
 public record LoginRequestDTO(String tipoDocumento, String numeroDocumento, String password) {
 }

@@ -11,8 +11,5 @@ public class PatitasFrontEndAApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PatitasFrontEndAApplication.class, args);
 	}
-	@Bean
-	public RestTemplate restTemplate(){
-		return new RestTemplate();
-	}
+
 }
